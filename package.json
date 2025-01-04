@@ -1,0 +1,11 @@
+{
+  "name": "backenedseries",
+  "version": "1.0.0",
+  "description": "This is backened series with project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikhil Verma",
+  "license": "ISC"
+}
