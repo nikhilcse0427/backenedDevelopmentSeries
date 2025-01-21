@@ -8,14 +8,16 @@ dotenv.config({
   path: '../.env'
 })
 
+
 connectDB()
 .then(()=>{
-  app.listen(`${process.env.PORT}` || 50000)
+  app.listen(`${process.env.PORT}` || 5000)
   console.log(`app is running on port number ${process.env.PORT}`)
 })
 .catch(()=>{
   console.log("Mongodb not connectted successfully")
 })
+
 
 
 
